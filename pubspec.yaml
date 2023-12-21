@@ -1,7 +1,7 @@
 name: promotion_overlay_platform_interface
 description: A common platform interface for the promotion_overlay plugin.
 repository: https://github.com/psycatgames/promotion_overlay_platform_interface
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=2.17.1 <4.0.0"

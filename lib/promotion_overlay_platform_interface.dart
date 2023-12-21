@@ -42,7 +42,7 @@ abstract class PromotionOverlayPlatform extends PlatformInterface {
   @Deprecated('Use MockPlatformInterfaceMixin instead')
   bool get isMock => false;
 
-  /// Shows the promotion overlay with [appIdentifier] using SKOverlay (on iOS) and TODO: Android implementation (on Android)
+  /// Shows the promotion overlay with [appIdentifier] using SKOverlay (on iOS)
   /// Returns true if the overlay was shown, false otherwise
   /// optional [campaignToken] and [providerToken] are used for attribution
   Future<bool> show(
